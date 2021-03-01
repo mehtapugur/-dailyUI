@@ -10,12 +10,13 @@ body{
   align-items: center;
   justify-content: center;
   font-family: "GT Walsheim Pro", Arial, sans-serif;
+  font-weight: bold;
 }
 
 .back-circle{
   height: 770px;
   width: 770px;
-  position: absolute;
+  position: relative;
   background-color: #704FB7;
   border-radius: 50%;
   z-index: -1;
@@ -37,9 +38,8 @@ body{
   width: 53%;
   background: url("image.png");
   background-size: cover;
-  border-radius: 4.7%;
+  border-radius: 5%;
 }
-
 
 .form-box {
   height: 100%;
@@ -60,13 +60,11 @@ body{
   justify-content: center; */
 }
 
-
 .form-header{
   /* position: absolute; */
   /*margin-top: 15px; */
   margin-left: 40px;
-  margin-top: 28px;
-  
+  margin-top: 28px;  
 }
 
 .form-header p{
@@ -97,7 +95,7 @@ input {
 .form-content {
   display: flex;
   /* position: absolute; */
-  margin-left: 20px;
+  margin-left: 18px;
   margin-top: 13px;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -120,6 +118,7 @@ input {
   align-items: center;
   justify-content: center;
 }
+
 .face-tw {
   display: flex;
 }
@@ -133,6 +132,7 @@ input {
   border-radius: 10px;
   line-height: 20px;
   text-align: center;
+  font-weight: normal;
 }
 
 .create-account {
@@ -146,11 +146,7 @@ input {
 
 .twitter {
   background-color: #00ACEE;
-
-}
-
-.face-tw {
-  /* margin-bottom: 20px; */
+  margin-left: 25px;
 }
 
 .form-footer {
@@ -174,4 +170,15 @@ input {
   width: 20px;
   font-size: 11px;
   /*font-weight: bold; */
+}
+
+.circle-shadow {
+  height: 35px;
+  width: 59%;
+  position: absolute;
+  bottom: 78px;
+  left: 157.8px;
+  background-color: #613EA6;
+  /*z-index: 2; */
+  border-radius: 50%;
 }
