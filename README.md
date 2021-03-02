@@ -3,7 +3,7 @@ in this repo i will create 100 different user interface elements for mobile and 
 
 Day1: Login Page
 
-I tried to make a design i saw in behance.
+I tried to make a design i saw in Behance.
 
 Link of design is here https://www.behance.net/gallery/112789425/LoginSign-up-Page
 
